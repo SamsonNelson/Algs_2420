@@ -1,0 +1,53 @@
+package books;
+
+import edu.princeton.cs.introcs.In;
+import edu.princeton.cs.introcs.StdOut;
+
+/**
+ * 
+ * @author Samson Nelson
+ * A00 Books
+ * January 21st 2017
+ * 
+ */
+public class Book {
+	
+	private String title;
+	private String author;
+	private int year;
+	
+	public Book(String title, String author, int year) {
+//		super();
+		this.title = title;
+		this.author = author;
+		this.year = year;
+	}
+
+	public String getTitle() {
+		return title;
+	}
+
+	public String getAuthor() {
+		return author;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	@Override
+	public String toString() {
+		return author + " by " + title + " " + year;
+	}
+	
+	public void getList (String filename) {
+		String fileName = "src/books/books.csv";
+		In in = new In(fileName);
+		while (in.hasNextLine()) {
+			StdOut.println(in.readLine());
+		}
+		StdOut.println();
+	}
+	
+	
+}

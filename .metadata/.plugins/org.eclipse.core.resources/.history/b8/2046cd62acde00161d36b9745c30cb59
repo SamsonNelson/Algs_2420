@@ -1,0 +1,29 @@
+package books;
+
+import edu.princeton.cs.introcs.In;
+import edu.princeton.cs.introcs.StdOut;
+
+public class BookApp {
+
+	public static void main(String[] args) {
+
+//		ArrayList<String> csvResult = new ArrayList<String>();
+		
+		String line = "";
+        String cvsSplitBy = ",";
+		
+		String fileName = "src/books/books.csv";
+		
+		In in = new In(fileName);
+		while (in.hasNextLine()) {
+			StdOut.println(in.readLine());
+			// use comma as separator
+            String[] author = line.split(cvsSplitBy);
+            System.out.println("Author " + author[0]);
+		}
+		StdOut.println();
+		
+		
+	}
+
+}

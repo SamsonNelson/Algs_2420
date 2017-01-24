@@ -1,0 +1,17 @@
+package books;
+
+import java.util.Collections;
+import java.util.List;
+
+public class BookApp {
+
+	public static void main(String[] args) {
+
+		String fileName = "src/books/books.csv";
+		List<Book> books = Book.getList(fileName);
+		
+		System.out.println("Number of books read in: " + books.size());
+		Collections.sort(books);
+	}
+
+}

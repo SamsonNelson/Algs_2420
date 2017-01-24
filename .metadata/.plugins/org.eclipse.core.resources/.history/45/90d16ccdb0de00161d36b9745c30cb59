@@ -1,0 +1,15 @@
+package books;
+
+import java.util.List;
+
+public class BookApp {
+
+	public static void main(String[] args) {
+
+		String fileName = "src/books/books.csv";
+		List<Book> books = Book.getList(fileName);
+		
+		
+	}
+
+}

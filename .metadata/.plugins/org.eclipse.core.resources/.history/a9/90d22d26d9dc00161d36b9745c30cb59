@@ -1,0 +1,20 @@
+package ComparEx;
+
+import java.util.Comparator;
+
+public class GradeComparator implements Comparator {
+
+    @Override
+    public int compare(Object o1, Object o2) {
+    	
+    	Student s1 = (Student) o1;
+        int n1 = s1.getGrade();
+        
+        Student s2 = (Student) o2;
+        int n2 = s2.getGrade();
+        
+		int result = Integer.compare(n1, n2);
+		return result;
+    }
+
+}
