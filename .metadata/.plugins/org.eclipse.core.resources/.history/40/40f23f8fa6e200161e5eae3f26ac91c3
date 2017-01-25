@@ -17,7 +17,6 @@ package percolation;
  *  with with site (0, 0) in the upper left-hand corner.
  *
  ******************************************************************************/
-//http://stackoverflow.com/questions/41700053/stddraw-algs4-package-lacks-enabledoublebuffering-among-other-things
 
 import java.awt.Font;
 

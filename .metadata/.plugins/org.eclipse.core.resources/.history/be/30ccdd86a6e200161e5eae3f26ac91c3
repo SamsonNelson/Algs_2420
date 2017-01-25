@@ -17,7 +17,6 @@ package percolation;
  *  with with site (0, 0) in the upper left-hand corner.
  *
  ******************************************************************************/
-//http://stackoverflow.com/questions/41700053/stddraw-algs4-package-lacks-enabledoublebuffering-among-other-things
 
 import java.awt.Font;
 
@@ -68,12 +67,12 @@ public class PercolationVisualizer {
         Percolation perc = new Percolation(n);
 
         // turn on animation mode
-//        StdDraw.enableDoubleBuffering();
+        StdDraw.enableDoubleBuffering();
 
         // repeatedly read in sites to open and draw resulting system
         draw(perc, n);
         StdDraw.show();
-//        StdDraw.pause(DELAY);
+        StdDraw.pause(DELAY);
 
         while (!in.isEmpty()) {
             int i = in.readInt();
@@ -81,7 +80,7 @@ public class PercolationVisualizer {
             perc.open(i, j);
             draw(perc, n);
             StdDraw.show();
-//            StdDraw.pause(DELAY);
+            StdDraw.pause(DELAY);
         }
     }
 
