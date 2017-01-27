@@ -17,6 +17,7 @@ public class BookApp {
 	public static void main(String[] args) {
 
 		String fileName = "src/books/books.csv";
+//		String fileName = args[0];
 		List<Book> books = Book.getList(fileName);
 		
 		System.out.println("Number of books read in: " + books.size() + "\n");
