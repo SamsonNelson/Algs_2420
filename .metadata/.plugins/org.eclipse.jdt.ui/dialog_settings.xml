@@ -9,6 +9,9 @@
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
 	</section>
+	<section name="SelfEncapsulateFieldWizard">
+		<item value="false" key="GenerateJavadoc"/>
+	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
 		<item value="false" key="OmitCallToSuper"/>
 	</section>
@@ -65,13 +68,19 @@
 	<section name="FatJarPackageWizard">
 		<item value="/Users/samsonnelson/Documents/WorkSpace_algs4_Spring_2017" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
 		<item value="BookApp - Assignments" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson6.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson6.jar"/>
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson2.jar"/>
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson1.jar"/>
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson5.jar"/>
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson4.jar"/>
 			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="/Users/samsonnelson/Documents/WorkSpace_algs4_Spring_2017.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>
@@ -121,6 +130,10 @@
 		<item value="false" key="JarManifestWizardPage.SAVE_MANIFEST"/>
 		<item value="false" key="JarPackageWizardPage.EXPORT_OUTPUT_FOLDER"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson5.jar"/>
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson2.jar"/>
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson1.jar"/>
+			<item value="/Users/samsonnelson/Desktop/A00_Books_SamsonNelson1.jar"/>
 			<item value="/Users/samsonnelson/Desktop/A00_Books_SamsonNelson.jar"/>
 		</list>
 	</section>

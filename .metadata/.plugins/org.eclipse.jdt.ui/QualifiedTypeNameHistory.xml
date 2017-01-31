@@ -5,11 +5,12 @@
 <fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdIn"/>
 <fullyQualifiedTypeName name="test.countOccurences"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="books.BookApp"/>
 <fullyQualifiedTypeName name="books.Book"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="edu.princeton.cs.algs4.UF"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="percolation.Percolation"/>
 </qualifiedTypeNameHistroy>
