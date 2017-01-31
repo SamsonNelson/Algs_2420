@@ -13,9 +13,7 @@ import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 public class Percolation {
 	
 	private int n;
-	//Use unionFindP for percolates
 	private WeightedQuickUnionUF unionFindP;
-	//Use unionFindF for isFull to avoid backwash
 	private WeightedQuickUnionUF unionFindF;
 	boolean[][] indexArray;
 	
@@ -26,17 +24,12 @@ public class Percolation {
 	}
 	
 	private void initializeUF() {
-		//Initialize with two dummy nodes at the top and bottom
 		this.unionFindP = new WeightedQuickUnionUF((n*n) + 2);
-		//Initialize with one dummy node at the top
 		this.unionFindF = new WeightedQuickUnionUF((n*n) + 1);
 		
 		for (int i = 0; i <= n; i++) {
-			//Connect top row to dummy node 0
 			unionFindP.union(0, i);
 			unionFindF.union(0, i);
-			
-			//Connect bottom row to dummy node n+1
 			unionFindP.union((n*n) - n + i + 1, (n*n) + 1);
 		}
 	}
@@ -86,6 +79,7 @@ public class Percolation {
 		return unionFindP.connected(0, (n*n) + 1);
 	}
 
+	// Returns number of open sites
 	public int numberOfOpenSites() {
 		return unionFindP.count();
 	}
@@ -95,4 +89,5 @@ public class Percolation {
 		if (y < 0 || y >= n) throw new IndexOutOfBoundsException("row index y " + y + " must be between 0 and " + (n-1) + " n = " + n);
 
 	}
+	
 }
