@@ -67,11 +67,13 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="/Users/samsonnelson/Documents/WorkSpace_algs4_Spring_2017" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="BookApp - Assignments" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson6.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="Subset - Assignments" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A02_Randomized_Queues_and_Deques.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A02_Randomized_Queues_and_Deques.jar"/>
+			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A01_Percolation_SamsonNelson.jar"/>
 			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson6.jar"/>
 			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson2.jar"/>
 			<item value="/Users/samsonnelson/Documents/2017Algs2430Assignments/A00_Books_SamsonNelson1.jar"/>

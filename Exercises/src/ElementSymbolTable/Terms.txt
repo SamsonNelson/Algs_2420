@@ -1,0 +1,25 @@
+Computer-A computer is a device that executes a program or programs.
+CPU-The central processing unit or CPU, also known as the microprocessor or processor is the brain of the computer.
+Operating System-The operating system (OS) is the software that communicates with the computer hardware. No software can be run on the computer without the operating system
+Software-A program application.  Software is a program application; which provides the computer with step by step instructions to perform a specific task. A computer cannot function without software.
+Monitor-The computer monitor is computer screen or display unit. Types of monitors are CRTs (large & heavy) and flat screens (compact & light).
+Desktop-Is the display on the monitor/screen.
+Icon-An icon is a small, clickable picture that opens programs on a computer.
+Mouse-Is a hand held device that helps you control the pointer on the desktop/screen.
+Keyboard-Is the device used in typing in the words, numbers and to perform tasks. You can also use shortcuts using the keyboard to perform tasks quicker.
+File-A file is a block of information includes word documents, pictures, music, etc. Each file is differentiated with the help of a unique file name.
+Folder-The folder is a system that helps in organizing the files, programs and projects on the computer. It is similar to organizing files on a shelf in your cabinet.
+Hard Drive-The hard drive is the device where the information is stored.
+Hardware-Is the physical pieces of a computer; monitor, keyboard, mouse, printer, computer unit,scanner, etc.
+Browser-The web browser is software that you use to access the internet/World Wide Web Microsoft's Internet Explorer and Mozilla's Firefox are 2 examples of the browsers.
+Internet-The Internet is a worldwide network that helps connect millions of users around the world to share and exchange data, information, opinions, etc.
+World Wide Web-Is a service that is provided on the Internet for the users.
+Peripherals-Peripherals are the input/output devices that are connected to the computer. The keyboard, mouse and printer are computer peripherals.
+Networks-A network is a physical or logical construction that connects different computers together and helps them communicate.
+Virus-A computer virus is a program that is designed to harm the computer. They are basically the same thing as human viruses.
+Download-A download is a file, program or document that is transferred from one computer to another.
+Spam-Spam mail is pretty much business or people sending advertisements of their get rich quick schemes or their products to try. They are designed to trick you into giving away your money or your personal details.
+Surfing-Jumping from page to page on the Web. Just as in "TV channel surfing," where one clicks the remote to go from channel to channel.
+Modem-A modem is something that is connected to a computer to connect it to the internet or other networks. This is typically in the form of a small box that you get from your provider.
+Reboot-To restart your computer. To do a soft reboot to your computer. Go to Start Menu, and select either Shut Down or Restart.  Or if that doesn't work + press the Ctrl, Alt and Del buttons at the same time. A task  window will appear, click Shut Down.  The last resort, turn it off; hold in the power button until it shuts off, this is called a hard shut down.
+Crash-A serious computer failure; the computer itself stops working or that a program aborts unexpectedly. A crash signifies either a hardware malfunction or a very serious software bug. If your computer crashes, it is usually not your fault.

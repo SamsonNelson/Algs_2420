@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="indexArray[x][y]"/>\n<expression enabled\="true" text\="x"/>\n<expression enabled\="true" text\="y"/>\n<expression enabled\="true" text\="unionFind.find(0)"/>\n<expression enabled\="true" text\="unionFind.find(26)"/>\n<expression enabled\="true" text\="percolates()"/>\n<expression enabled\="true" text\="unionFind.find(xyTo1d(x,y))"/>\n</watchExpressions>\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions/>\n

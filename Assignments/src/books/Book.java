@@ -13,6 +13,8 @@ import edu.princeton.cs.introcs.In;
  * 
  */
 
+// Year and Author
+
 public class Book implements Comparable<Book> {
 	
 	private String title;
@@ -42,6 +44,11 @@ public class Book implements Comparable<Book> {
 		return title + " by " + author + " (" + year + ")";
 	}
 	
+//	@Override
+//	public String toString() {
+//		return "(" + year + ") " + title + " by " + author;
+//	}
+	
 	public static List<Book> getList (String filename) {
 		List<Book> books = new ArrayList();
 		In in = new In(filename);
@@ -61,7 +68,30 @@ public class Book implements Comparable<Book> {
 
 	@Override
 	public int compareTo(Book o) {
+//		 return Comparators.NAME.compare(this, o);
 		return getTitle().compareTo(o.getTitle());
 	}	
+	
+//	public static Comparator<Book> NAME = new Comparator<Book>();
+//	 @Override
+//     public int compareToAuthor(Book o) {
+//			return getAuthor().compareTo(o.getAuthor());
+//     }
+	
+	// http://stackoverflow.com/questions/14154127/collections-sortlistt-comparator-super-t-method-example
+	
+	
+	
+	// How do you compare by Author and Year in a generic way?
+	
+//	@Override
+//	public int compareTo(Book o) {
+//		return getAuthor().compareTo(o.getAuthor());
+//	}
+	
+//	@Override
+//	public int compareTo(Book o) {
+//		return o.getYear() - o.getYear();
+//	}
 	
 }
