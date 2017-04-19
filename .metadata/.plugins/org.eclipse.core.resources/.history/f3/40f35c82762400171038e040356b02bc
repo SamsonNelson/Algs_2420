@@ -1,0 +1,15 @@
+package wordNet;
+
+public class WordNet {
+	
+	private String synsets;
+	private String hypernyms;
+	
+	public WordNet(String synsets, String hypernyms) {
+		this.synsets = synsets;
+		this.hypernyms = hypernyms;
+	}
+	
+	
+
+}

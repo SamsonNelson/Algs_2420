@@ -1,0 +1,68 @@
+package wordNet;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+import edu.princeton.cs.algs4.DirectedCycle;
+
+public class WordNet {
+	
+	private final SAP sap;
+    private final Map<Integer, String> idToSynset;
+    private final Map<String, Set<Integer>> nounToIds;
+	
+	// How am I going to read in two data files
+	// Turn into Digraph - Hypernyms.txt - Make sure it is a valid graph - Are there no Cycles? / Single Ancestor
+	// Synsets.txt - Ancestor Query - Lookups from 0 to juvenile juvenile_person
+	// Two different symbol tables - What kind?
+	// 
+	public WordNet(String synsets, String hypernyms) {
+		idToSynset = new HashMap<>();
+        nounToIds = new HashMap<>();
+        initSynsets(synsets);
+        Digraph graph = initHypernyms(hypernyms);
+        
+        DirectedCycle cycle = new DirectedCycle(graph);
+        if (cycle.hasCycle() || !rootedDAG(graph)) {
+            throw new IllegalArgumentException("The input does not correspond to a rooted DAG!");
+        }
+
+        sap = new SAP(graph);
+	}
+	
+	private boolean rootedDAG(Digraph graph) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	private Digraph initHypernyms(String hypernyms) {
+		return null;
+	}
+
+	private void initSynsets(String synsets) {
+		
+	}
+	
+//	public Iterable<String> nouns() {
+//		
+//	}
+	
+//	public boolean isNoun(String word) {
+//		
+//	}
+	
+//	public int distance(String nounA, String nounB) {
+//		
+//	}
+	
+//	public String sap(String nounA, String nounB) {
+//		
+//	}
+	
+
+	public static void main(String[] args) {
+		
+	}
+
+}

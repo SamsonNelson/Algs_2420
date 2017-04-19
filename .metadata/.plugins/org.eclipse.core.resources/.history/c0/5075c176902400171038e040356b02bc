@@ -1,0 +1,93 @@
+package wordNet;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+import edu.princeton.cs.introcs.In;
+import edu.princeton.cs.introcs.StdIn;
+import edu.princeton.cs.introcs.StdOut;
+
+public class WordNet {
+	
+//	private final SAP sap;
+    private final Map<Integer, String> idToSynset;
+    private final Map<String, Set<Integer>> nounToIds;
+	
+	// How am I going to read in two data files
+	// Turn into Digraph - Hypernyms.txt - Make sure it is a valid graph - Are there no Cycles? / Single Ancestor
+	// Synsets.txt - Ancestor Query - Lookups from 0 to juvenile juvenile_person
+	// Two different symbol tables - What kind?
+	// 
+	public WordNet(String synsets, String hypernyms) {
+		idToSynset = new HashMap<>();
+		nounToIds = new HashMap<>();
+        initSynsets(synsets);
+	}
+	
+	private void initSynsets(String synsets) {
+		 In file = new In(synsets);
+	        while (file.hasNextLine()) {
+	            String[] line = file.readLine().split(",");
+	            Integer id = Integer.valueOf(line[0]);
+	            String n = line[1];
+	            idToSynset.put(id, n);
+
+	            String[] nouns = n.split(" ");
+	            // String definition = line[2];
+	            for (String noun : nouns) {
+	                Set<Integer> ids = nounToIds.get(noun);
+	                if (null == ids) {
+	                    ids = new HashSet<>();
+	                }
+	                ids.add(id);
+	                nounToIds.put(noun, ids);
+	            }
+	        }
+	}
+	
+	
+//	public Iterable<String> nouns() {
+//		
+//	}
+	
+	public boolean isNoun(String word) {
+		if (null == word || "".equals(word)) {
+            return false;
+        }
+        return nounToIds.containsKey(word);
+	}
+	
+//	public int distance(String nounA, String nounB) {
+//		
+//	}
+	
+//	public String sap(String nounA, String nounB) {
+//		
+//	}
+	
+
+	
+
+
+	public static void main(String[] args) {
+		
+		WordNet wordNet = new WordNet(args[0], args[1]);
+		while (!StdIn.isEmpty()) {
+            String v = StdIn.readString();
+            String w = StdIn.readString();
+            
+            if (!wordNet.isNoun(v)) {
+                StdOut.println(v + " not in the word net");
+                continue;
+            }
+            if (!wordNet.isNoun(w)) {
+                StdOut.println(w + " not in the word net");
+                continue;
+            }
+     
+            }
+	}
+
+}

@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdDraw"/>
 <fullyQualifiedTypeName name="test.countOccurences"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 <fullyQualifiedTypeName name="books.BookApp"/>
 <fullyQualifiedTypeName name="books.Book"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="edu.princeton.cs.algs4.UF"/>
 <fullyQualifiedTypeName name="percolation.Percolation"/>
 <fullyQualifiedTypeName name="edu.princeton.cs.algs4.WeightedQuickUnionUF"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="edu.princeton.cs.algs4.Date"/>
-<fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdOut"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
 <fullyQualifiedTypeName name="java.util.NoSuchElementException"/>
 <fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdRandom"/>
-<fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdIn"/>
 <fullyQualifiedTypeName name="queue.RandomziedQueue"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.algs4.ST"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="autocomplete.Term"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdDraw"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.algs4.MinPQ"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Iterable"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="eightPuzzle.Solver.SearchNode"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.algs4.Graph"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdOut"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.introcs.StdIn"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.introcs.In"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.algs4.Queue"/>
+<fullyQualifiedTypeName name="edu.princeton.cs.algs4.Stack"/>
 </qualifiedTypeNameHistroy>

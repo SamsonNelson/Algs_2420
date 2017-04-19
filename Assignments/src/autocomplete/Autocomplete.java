@@ -1,4 +1,10 @@
 package autocomplete;
+/**
+ * Samson Nelson
+ * A03 Autocomplete
+ * March 4th 2017
+ * 
+ */
 
 public class Autocomplete {
 

@@ -9,8 +9,13 @@ public class Main {
 	public static void main(String[] args) {
 
 	    // read in the terms from a file
-	    String filename = args[0];
+		
+//	    String filename = args[0];
+//	    In in = new In(filename);
+		
+		String filename = "src/autocomplete/wiktionary.txt";
 	    In in = new In(filename);
+	    
 	    int N = in.readInt();
 	    Term[] terms = new Term[N];
 	    for (int i = 0; i < N; i++) {
@@ -18,6 +23,7 @@ public class Main {
 	        in.readChar();                         // scan past the tab
 	        String query = in.readLine();          // read the next query
 	        terms[i] = new Term(query, weight);    // construct the term
+	        System.out.println(terms[i]);
 	    }
 
 	    // read in queries from standard input and print out the top k matching terms

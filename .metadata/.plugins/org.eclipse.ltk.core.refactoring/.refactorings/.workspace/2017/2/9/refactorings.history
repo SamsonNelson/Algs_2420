@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;autocomplete&apos; to &apos;Assignments_Maven&apos;" description="Rename resource &apos;autocomplete&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/autocomplete" name="Assignments_Maven" stamp="1488307398494" updateReferences="true"/>
+</session>

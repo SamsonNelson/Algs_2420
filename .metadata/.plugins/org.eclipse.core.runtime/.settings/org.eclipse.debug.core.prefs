@@ -1,2 +1,2 @@
 eclipse.preferences.version=1
-prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions/>\n
+prefWatchExpressions=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<watchExpressions>\n<expression enabled\="true" text\="row"/>\n<expression enabled\="true" text\="column"/>\n<expression enabled\="true" text\="freeRow"/>\n<expression enabled\="true" text\="freeColumn"/>\n<expression enabled\="true" text\="boards"/>\n<expression enabled\="true" text\="blocks"/>\n</watchExpressions>\n
